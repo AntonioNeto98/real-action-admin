@@ -1,0 +1,26 @@
+.product-add-button {
+  border-radius: 100%;
+  transition: .4s;
+  width: 3vw;
+  height: 3vw;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.product-add-button:hover {
+  -webkit-box-shadow: 1px 0px 15px -6px #000000; 
+  box-shadow: 1px 0px 15px -6px #000000;
+  cursor: pointer;
+}
+
+.product-add-button img {
+  width: 3vw;
+}
+
+.box-alert {
+  background-color: #02394A;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+}

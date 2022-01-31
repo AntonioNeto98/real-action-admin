@@ -1,0 +1,47 @@
+.new-product-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1vw;
+  row-gap: 1vw;
+}
+
+.new-product-input label {
+  color: #02394A;
+}
+
+.new-product-input input {
+  color: #02394A;
+  padding: 10px 5px;
+  outline: none;
+}
+
+.new-product-input textarea {
+  color: #02394A;
+  padding: 10px 5px;
+  outline: none;
+  height: 10vw;
+  resize: vertical;
+}
+
+.new-product-submit:hover {
+  cursor: pointer;
+  border: 1px solid #02394A;
+  background-color: white;
+  color: #02394A;
+  border-radius: 8px;
+  font-size: 1vw;
+}
+
+.new-product-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #02394A;
+  transition: .4s;
+}

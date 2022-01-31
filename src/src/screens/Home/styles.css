@@ -1,0 +1,19 @@
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(-45deg, #02394A, #0d566d, #0d566d, #02394A);
+}
+
+.home-login-box {
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 0px 15px -6px #000000; 
+  box-shadow: 1px 0px 15px -6px #000000;
+}
+
+.home-login-box img {
+  filter: invert(100%);
+}
